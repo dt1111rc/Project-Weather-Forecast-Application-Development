@@ -1,5 +1,3 @@
 Procedure:
 
-* [X] 
-
 ![1757142406635](image/README/1757142406635.png)
