@@ -4,10 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <title>Weather Forecast Application</title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="items-center justify-center bg-gray-300 min-h-screen flex flex-col border-black ">
+  <div class="bg-white shadow-2xl rounded-2xl p-6 w-full max-w-md">
+    <h1 id="dashboard_heading" class="text-center bg-yellow-600 text-3xl font-semibold text-white py-1 font-serif mb-4">Weather Dashboard</h1>
+
+    <!-- Code Snippet for Search Input -->
+    <p class="text-sm text-black font-bold px-3 py-3">Search for a city (Valid)</p>
+    <div class="flex gap-2 mb-4">
+      <input id="cityInput" type="text" placeholder="Enter city name (e.g., Kolkata, Chennai)" class="flex-1 p-2 border rounded-lg focus:outline-none focus:ring shadow-sm">
+      <button id="searchBtn" class="px-4 py-2  bg-blue-500 text-white rounded-lg hover:bg-red-600">Search</button>
+    </div>
+
+    <!-- Code Snippet for recent cities dropdown -->
+     <select id="recentCities" class="w-full mb-4 p-2 border rounded-lg"></select>
+
+    <!-- Code snippet for current weather -->
+    <div id="weatherInfo" class="text-center mb-4">
+      <p class="text-gray-100">No data yet</p>
+    </div>
+
+    <!-- Code snippet for temperature unit toggle -->
+    <div class="flex justify-center mb-4">
+      <button id="toogleUnit" class="px-4 py-2 border rounded-lg hover:bg-gray-400">Switch to Celcius or Fahrenhiet</button>
+    </div>
+
+    <!-- Extended forecast -->
+    <div id="forecast" class="grid grid-cols-1 gap-2"></div>
+  </div>
 </body>
 </html>
