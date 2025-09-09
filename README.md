@@ -9,5 +9,3 @@ Procedure:
 ![1757250311851](image/README/1757250311851.png)
 
 3> Status after creating the html file (Code has been updated):
-
-![1757438388603](image/README/1757438388603.png)
