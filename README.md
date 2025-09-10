@@ -10,4 +10,4 @@ Procedure:
 
 3> Status after creating the html file (Code has been updated):
 
-![1757439586896](image/README/1757439586896.png)
+![1757505631653](image/README/1757505631653.png)
